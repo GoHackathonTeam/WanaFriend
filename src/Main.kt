@@ -1,7 +1,7 @@
 import java.util.*
 
 fun main(args: Array<String>) {
-    val friends = TreeSet<Int>()
+    val friends = HashSet<Int>()
     val scanner = Scanner(System.`in`, "UTF-8")
     val nFriends = scanner.nextInt()
     for (i in 1..nFriends) {
